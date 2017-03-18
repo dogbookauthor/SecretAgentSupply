@@ -1,0 +1,132 @@
+html {
+
+}
+body{
+font-family: Helvetica;
+}
+
+.header{
+  font-family: Helvetica;
+  font-size: 1rem;
+  display: block;
+  padding-top: .66rem;
+  padding-bottom: .66rem;
+  height: 1.75rem;
+  background-color: black;
+  flex-grow: 1;
+  color: white;
+}
+.logo img{
+  display: flex;
+  justify-content: space-between;
+  height: 1.5rem;
+  padding-right: 10px;
+}
+.logo{
+  display: flex;
+  margin-right: .5rem;
+  padding-left: 80px;
+
+}
+.logo span{
+  display: flex;
+  padding-top: 12px;
+}
+
+.banner-container{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  padding: 20px;
+  display; flex;
+  justify-content: flex-start;
+  height: 25rem;
+  width: 960px;
+}
+
+.headline{
+  display: column;
+  background-color: black;
+  color: white;
+  height: 13rem;
+  width: 25rem;
+  padding-left:
+}
+.headline h1{
+  display: block;
+  padding-top: 1.25rem;
+  padding-left: 3rem;
+  font-size: 2rem;
+}
+.headline h4{
+  display: block;
+  padding-top: 2rem;
+  font-size: 1rem;
+  padding-left: 3rem;
+}
+
+.navigation nav{
+  padding-top: .66rem;
+  padding-bottom: .66rem;
+  width: 1000px;
+  height: 1.75rem;
+  background-color: firebrick;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.products{
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  height: 500px;
+}
+.pen{
+  display: inline-block;
+  border: 4px solid black;
+  width: 47%;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png);
+}
+.pen span{
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  display: block;
+}
+.watch{
+  display: inline-block;
+  border: 4px solid black;
+  width: 47%;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/watch.png);
+}
+.watch span{
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  display: block;
+}
+.glasses{
+  display: inline-block;
+  border: 4px solid black;
+  width: 47%;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/glasses.png);
+}
+.glasses span{
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  display: block;
+}
+}
+.footer{
+  height: 5rem;
+  width: 1000px;
+  background-color: black;
+  color: white;
+}
+
+}
