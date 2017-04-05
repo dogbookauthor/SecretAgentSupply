@@ -1,6 +1,5 @@
 html {
-  width: 960px;
-  height: 960px;
+  width: 1029px;
 }
 @media only screen and (min-width: 1024px),(orientation:portrait){
 
@@ -42,37 +41,39 @@ font-size: 18px;
 }
 /* Main Banner */
 .banner-container{
-  /*width: 960px;*/
-  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  /*position: relative;
   background-color: black;
   color: white;
   max-width: 20rem;
   top: 9rem;
-  padding: 2rem 3rem;
+  padding: 2rem 3rem;*/
 
 }
 
 .main-banner {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
-  padding: 20px;
-  display; flex;
-  justify-content: flex-start;
+  /*padding: 20px;
+  display; flex;*/
+  /*justify-content: flex-start;*/
   height: 25rem;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  width: 100%;
+  /*max-width: 960px;*/
+  margin: 0 auto;
 }
-
-/*.main-banner headline{
-  display: column;
+ .headline{
   background-color: black;
   color: white;
-  height: 13rem;
-  width: 20rem;
-  padding: 2em 3em;
+  max-width: 20rem;
+  padding: 2rem 3rem;
   position: relative;
-  margin-top: 9em;*/
+  top: 9rem;
 }
-.banner-container h1{
+.headline h1{
   /*display: block;
   padding-top: 1.25rem;
   padding-left: 3rem;*/
@@ -80,7 +81,7 @@ font-size: 18px;
   font-weight: bold;
   padding: .25rem 0;
 }
-.banner-container h4{
+.headline h4{
   /*display: block;
   padding-top: 2rem;
   font-size: 0.77rem;
@@ -92,18 +93,30 @@ font-size: 18px;
 /* Navigation Bar */
 nav {
   padding: .75rem 0;
-  height: 1.75rem;
+  background-color: firebrick;
+  margin: 0 auto;
+  /*height: 1.75rem;
   background-color: firebrick;
   display: inline-flex;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 960px;*/
+}
+nav .container{
+  display: flex;
+  justify-content: space-around;
+}
+.mobile-nav {
+  display: none;
+}
 }
 
-}
-@media (min-width: 768px) and (max-width: 1024px){
-  nav .container {
-    display: none;
+/*mobile nav*/
+@media (max-width: 724px){
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 a {
